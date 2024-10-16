@@ -1,6 +1,8 @@
 salario = float(input("Digite o seu salário fixo: "))
 valor = float(input("Digite o valor das vendas: "))
 
-salario_final = salario + (valor * (4/100))
+comissao = valor * (4/100)
+salario_final = salario + comissao
 
-print("O salário final é: %5.2f" % salario_final)
+print(f"Comissão: R$ {comissao:.2f}")
+print(f"O salário final é: R$ {salario_final:.2f}")
