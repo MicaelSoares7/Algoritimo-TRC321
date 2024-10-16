@@ -3,4 +3,4 @@ dias = int(input("Digite a quantidade de dias que o carro foi alugado: "))
 
 preco = (dias * 60) + (0.15 * km_percorrido)
 
-print("O preço a pagar é", preco)
+print("O preço a pagar é R$", preco)
