@@ -1,5 +1,7 @@
-n = int(input("Digite um número com 3 algarismos: "))
+numero = int(input("Digite um número com 3 algarismos: "))
 
-n = str(n)
+a = numero // 100
+b = numero % 100 // 10
+c = numero % 100 % 10
 
-print(n[::-1])
+print(f"{c}{b}{a}")
